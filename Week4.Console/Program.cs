@@ -25,9 +25,11 @@ namespace Week4.Console
 
             // Get the embedded resource from the assembly
             foreach (var item in programmes)
-                        {
-                            System.Console.WriteLine("{0}", item.ToString());
-                        }
+                System.Console.WriteLine("{0}", item.ToString());
+
+            foreach(var item in students)
+                System.Console.WriteLine("{0}", String.Concat(new string[] {item.StudentID," ",item.FirstName," ", item.SecondName  }));
+
             System.Console.ReadKey();
 
         }
