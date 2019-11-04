@@ -52,6 +52,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Course.cs" />
+    <Compile Include="CourseDTO.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Programme.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
